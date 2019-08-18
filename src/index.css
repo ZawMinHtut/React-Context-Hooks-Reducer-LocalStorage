@@ -7,7 +7,78 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ddd;}
+nav {
+  text-align: center;
+  padding: 10px;}
+nav h1 {
+  margin: 5px 0 5px 0;
+  padding: 10px;}
+nav ul {
+  padding-left: 0;}
+nav ul li{
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  background: #eee;}
+div.game-list {
+  padding: 20px;
+  background: #eee;}
+div.game-list p {
+  margin-bottom: 0;
+  text-align: center;
 }
+div.game-list ul {
+  background: #ddd;
+  padding: 10px;
+  border-radius: 1%;
+}
+div.game-list ul li {
+  list-style: none;
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 2px;}
+div.game-list ul li:hover {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+div.game-list ul li .name {
+  font-size: 18px;
+}
+div.game-list ul li .company {
+  font-size: 15px;
+}
+form {
+  padding: 20px;}
+form .form-group {
+  width: 100%;
+}
+form input[type="text"] {
+  text-indent: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  line-height: 30px;
+  border-radius: 2px;
+  border: 1px solid transparent;}
+form input[type="text"]:focus {
+  box-shadow: 0 0 5px royalblue;
+  outline: none;}
+form input[type="submit"] {
+  line-height: 20px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  background: #eee;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto 0;}
