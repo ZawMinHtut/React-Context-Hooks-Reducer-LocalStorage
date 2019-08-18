@@ -6,7 +6,7 @@ export default class NavbarContextProvider extends Component {
     constructor(){
         super();
         this.state={
-            MenuList: ['Log Out', 'Change Theme']
+            MenuList: ['Menu1', 'Menu2']
         }
     }
     render(){
